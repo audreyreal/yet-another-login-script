@@ -4,7 +4,7 @@ import requests
 
 def login(nation, password, main_nation):
     headers = {
-        "User-Agent": "Login script devved by nation=sweeze, in use by nation={main_nation}",
+        "User-Agent": f"Login script devved by nation=sweeze, in use by nation={main_nation}",
         "X-Password": password,
     }
 
